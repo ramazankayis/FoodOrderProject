@@ -9,7 +9,7 @@ const Header = () => {
         <h1> React Food</h1>
       </div>
       <nav>
-        <Button>Cart (0)</Button>
+        <Button textOnly>Cart (0)</Button>
       </nav>
     </header>
   );
