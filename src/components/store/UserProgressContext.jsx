@@ -13,7 +13,7 @@ export const UserProgressContextProvider = ({ children }) => {
   const showCart = () => {
     setUserProgress("cart");
   };
-  const shideCart = () => {
+  const hideCart = () => {
     setUserProgress("");
   };
   const showCheckout = () => {
@@ -26,7 +26,7 @@ export const UserProgressContextProvider = ({ children }) => {
   const userProgressCtx = {
     progress: userProgress,
     showCart,
-    shideCart,
+    hideCart,
     showCheckout,
     hideCheckout,
   };
